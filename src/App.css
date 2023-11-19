@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+nav li{
+  display: inline;
+}
+
+nav a{
+  padding: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos en columna */
+  align-items: center; /* Centra los elementos horizontalmente */
+  min-height: 100vh; /* Garantiza que el contenedor ocupe al menos el 100% del alto de la ventana */
+}
