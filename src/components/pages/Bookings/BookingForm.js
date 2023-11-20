@@ -127,6 +127,7 @@ const BookingForm = ({
         className="button-primary" 
         type="submit" 
         disabled={!areAllFieldsValid()}
+        aria-label="On Click"
       >
         Make your reservation
       </button>
